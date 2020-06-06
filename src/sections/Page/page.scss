@@ -1,0 +1,27 @@
+.page {
+    display: grid;
+    grid-template-rows: 40mm 1fr 40mm;
+    grid-template-columns: 110mm 1fr;
+    grid-template-areas:
+        ".          header"
+        "content    content"
+        "footer     footer"
+    ;
+
+    .header {
+        grid-area: header;
+    }
+    .content {
+        grid-area: content;
+
+        .withMargin {
+            margin-left: 30mm;
+            margin-right: 30mm;
+            margin-top: 30mm;
+        }
+
+    }
+    .footerWrapper {
+        grid-area: footer;
+    }
+}

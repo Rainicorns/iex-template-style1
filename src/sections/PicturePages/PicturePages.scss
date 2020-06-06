@@ -1,0 +1,40 @@
+@import "../../styles/brand.scss";
+
+.picturePage {
+    display: grid;
+    grid-template-areas: "pics";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    .pictureFrame {
+        grid-area: 'pics';
+        display: grid;
+        margin-top: 10mm;
+
+        &.2place {
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .place {
+            background-size: cover;
+            background-position: center;
+            -webkit-print-color-adjust: exact;
+            position: relative;
+
+            .description {
+                display: block;
+                width: 33%;
+                position: absolute;
+                bottom: 10mm;
+                font-size: 24pt;
+                opacity: 0.8;
+                text-align: right;
+                color: white;
+                padding: 5mm;
+                box-shadow: 0 .5mm 2mm rgba(0,0,0,.3);
+
+            }
+
+        }
+    }
+}
