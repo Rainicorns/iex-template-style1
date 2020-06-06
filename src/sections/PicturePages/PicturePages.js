@@ -32,9 +32,9 @@ export default function PicturePages({theme}) {
 
     return (
         <>
-            {chunks.map(lilChunk => {
+            {chunks.map((lilChunk, idx) => {
                 return (
-                    <PicturePage theme={theme} className="2Place" photos={lilChunk} />
+                    <PicturePage key={idx} theme={theme} className="2Place" photos={lilChunk} />
                 );
             })}
         </>

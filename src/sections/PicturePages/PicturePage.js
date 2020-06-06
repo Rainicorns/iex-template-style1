@@ -1,6 +1,6 @@
 import React from 'react'
 import Page from '../Page/Page';
-import { css, cx } from 'emotion'
+import { css } from 'emotion'
 import { basetheme } from '../../styles/IEXTheme'
 
 
@@ -11,7 +11,7 @@ export default function PicturePage({ theme, photos, className }) {
             <div className={`pictureFrame ${className}`}>
                 {photos.map(photoObj => {
                     return (
-                        <div className="place" style={{
+                        <div key={photoObj.url} className="place" style={{
                             backgroundImage: `url(${photoObj.url})`
                         }}>
                             {/* className="description" */}

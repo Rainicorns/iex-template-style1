@@ -23,7 +23,7 @@ export default function FloorPlans({ theme }) {
         <>
             {plans.map((plan, idx) => {
                 return (
-                    <Page theme={theme} withMargin={true} title={idx === 0 ? "Grundrisse":undefined}>
+                    <Page key={plan.url} theme={theme} withMargin={true} title={idx === 0 ? "Grundrisse":undefined}>
                         <div className="plan">
                             <img src={plan.url} />
                             <div>{plan.description}</div>
