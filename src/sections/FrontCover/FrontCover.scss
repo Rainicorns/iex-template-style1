@@ -29,5 +29,25 @@
         grid-area: pic;
         background-size: cover;
         -webkit-print-color-adjust: exact;
+        position: relative;
+
+        .headline {
+            position: absolute;
+            bottom: 0mm;
+            left: 0mm;
+            right: 0mm;
+            padding: 5mm;
+            color: rgba(255,255,255,0.8);
+            background-color: rgba(0,0,0,0.6);
+            text-align: center;
+            -webkit-print-color-adjust: exact;
+            text-transform: uppercase;
+
+            .description {
+                color: rgba(255,255,255,0.6);
+                text-transform: none;
+            }
+        }
+
     }
 }

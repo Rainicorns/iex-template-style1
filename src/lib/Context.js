@@ -44,21 +44,46 @@ const Stage = ({ level, children }) => {
 
 
 const ffmap = (strings, ...values) => {
-    console.log(ContextStore._currentValue);
     const iex = ContextStore._currentValue.iex;
+    // console.log("Path : ",strings[0])
+    function q(jpath) {
+        return jp.query(iex.context, jpath);
+    }
     try {
-        const jpath = `$.${strings[0]}.values`;
-        const answer = jp.query(iex.context, jpath);
+        // try first with weird FF blah.values array
+        let answer = q(`$.${strings[0]}.values`)[0];
+        // console.log("Answer : ",answer)
+
         // undue the weird everything is a value array in FF
         if (Array.isArray(answer) && answer.length === 1) {
-            return answer[0];
+            // console.log("Unwrapping Array : ",answer[0]);
+            answer = answer[0];
         }
-        return answer;
+        // console.log("answer : ",answer);
+        if (answer) {
+            return answer;
+        } else {
+            // console.log("What is it's a normal object????!?!!?");
+            // okay entities have weird value arrays but sender obj doesn't!!!!
+            answer = q(`$.${strings[0]}`)[0];
+            // console.log("answer : ",answer);
+            if (answer) {
+                return answer;
+            }
+            // okay loop through all the default values
+            for (let i = 0; i < values.length; i++) {
+                if (values[0]) return values[0];
+            }
+            // i give up....
+            return undefined;
+        }
     } catch (e) {
         console.log(`Error trying to deference ${strings}`, e);
         return 'ERROR';
     }
 }
+
+
 
 
 export { Context, ContextStore, Stage, ffmap };

@@ -1,31 +1,24 @@
 import React from 'react'
 import Page from '../Page/Page';
 import { basetheme } from '../../styles/IEXTheme'
+import { css } from 'emotion';
 
-
-import pic1 from '../../mock/floorplans/EG.jpg'
-import pic2 from '../../mock/floorplans/First.jpg'
-import pic3 from '../../mock/floorplans/Attic.jpg'
-import pic4 from '../../mock/floorplans/Basement.jpg'
-
-
-export default function FloorPlans({ theme }) {
+export default function FloorPlans({ theme, imgObjs }) {
     const mytheme = theme ? theme : basetheme;
-
-    const plans = [
-        { url: pic1, description: 'EG' },
-        { url: pic2, description: '1.0' },
-        { url: pic3, description: 'Attic' },
-        { url: pic4, description: 'Keller' },
-    ]
-
+    console.log("imgObjs : ",imgObjs);
     return (
         <>
-            {plans.map((plan, idx) => {
+            {imgObjs.map((plan, idx) => {
                 return (
-                    <Page key={plan.url} theme={theme} withMargin={true} title={idx === 0 ? "Grundrisse":undefined}>
+                    <Page key={plan.uri + plan.headline} theme={theme} withMargin={true} title={idx === 0 ? "Grundrisse" : undefined}>
                         <div className="plan">
-                            <img src={plan.url} />
+                            <img src={plan.uri} className={css`
+                                max-width: 100%;
+                                max-height: 80%;
+                            `} />
+                            <div className={css`
+                                font-weight: 600;
+                            `}>{plan.headline}</div>
                             <div>{plan.description}</div>
                         </div>
                     </Page>

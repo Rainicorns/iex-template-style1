@@ -8,6 +8,7 @@
     grid-template-columns: 1fr 1fr;
     .lhs {
         grid-area: lhs;
+        margin-right: 10mm;
     }
     .rhs {
         grid-area: rhs;

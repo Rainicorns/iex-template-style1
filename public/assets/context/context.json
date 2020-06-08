@@ -187,7 +187,7 @@
       },
       "textEstate": {
         "values": [
-          "Wohnen am Ostbahnhof. Leben Sie im Herzen von Berlin. In 10 Minuten mit der S-Bahn erreichen Sie sowohl den Alexanderplatz wie auch das Szeneviertel an der Warschauer Straße. Alle Apartments wurde im Jahr 2018 fertiggestellt und verfügen serienmäßig über eine Hochwertige Einbauküche."
+          "Diese wunderschöne und toll gepflegte Doppelhaushälfte liegt in Sackgassenendlage der schönen Stadt Schwentinental im Ortsteil Klausdorf.\n\nDie Immobilie wurde 1993 in massiver Bauweise errichtet. Das Haus wurde von den Besitzern liebevoll gepflegt und nach und nach modernisiert. Zuletzt wurden kostenintensive Modernisierungen der Heizung und des Gäste-WCs sowie die Erneuerung der Küche durchgeführt. Ebenfalls wurden bereits einige Fenster sowie Bodenbeläge erneuert, sodass der Zustand als modern zu bezeichnen ist.\n\nHerzstück des Hauses ist das große Wohn- und Esszimmer mit dem Kaminofen, der an kalten Tagen wohlige Wärme verbreitet. Dank der Süd-West Ausrichtung und der bodentiefen Fensterelemente ist dieser Raum herrlich hell.\n\nDie moderne Küche ist ein Traum für jeden Kochbegeisterten. Dank der Nähe zum großen Hauswirtschaftsraum sind die Wege zu den Einkäufen kurz. Der Eingangsflur und ein Gäste-WC komplettieren diese Ebene.\n\nÜber eine massive Treppe gelangen Sie in das Dachgeschoss. Dort befinden sich ein helles Schlafzimmer, zwei weitere individuell nutzbare Zimmer (Kinderzimmer / Büro) und das Vollbad mit Badewanne, Dusche und Tageslichtfenster aus dem Baujahr. Die Nutzfläche im Spitzoden wurde nachträglich wohnlich ausgebaut und mit 10 qm bei der Wohnflächenberechnung berücksichtigt. Dieser großzügige Raum wurde zuletzt als Schlafzimmer genutzt. Die genaue Raumaufteilung entnehmen Sie bitte den Grundrisszeichnungen.\n\nDas perfekte Zuhause für eine Familie. Eine nette Nachbarschaft, tolle Infrastruktur und die Gelassenheit der Vorstadt sind inklusive.\n\nDer Außenbereich erwartet Sie mit einem schön angelegten Garten und mit einer nach Süd-West ausgerichteten Terrasse. Hier kann man die Hektik des Alltags hinter sich lassen und den Blick in den kleinen, grünen Garten genießen. Direkt hinter dem Grundstück befindet sich die Landesstraße 52 die Schwentinental und den Kieler Stadtteil Wellingdorf verbindet.\n\nVereinbaren Sie einen Besichtigungstermin mit uns!"
         ]
       },
       "priority": {
@@ -250,23 +250,30 @@
           {
             "uri": "https://s3.eu-central-1.amazonaws.com/cloudios.production.image/27/75cad74e-dac9-4e1c-9544-97dffbc53f27/d0/947ec018-e607-48d2-9726-ae21425328d0/dc/b532a402-c8ee-442a-abb5-f91af1f292dc.jpg",
             "online": true,
-            "headline": "6",
+            "headline": "EG",
             "position": 0,
-            "description": ""
+            "description": "The ground floor opens up with sweeping views of the ocean. Downstairs master with open concept kitchen fits family needs perfectly."
           },
           {
-            "uri": "https://s3.eu-central-1.amazonaws.com/cloudios.production.image/27/75cad74e-dac9-4e1c-9544-97dffbc53f27/d0/947ec018-e607-48d2-9726-ae21425328d0/5b/be27083b-54af-409f-9247-cb690a45d85b.jpg",
-            "online": false,
-            "headline": "",
-            "position": 1,
-            "description": ""
+            "uri": "https://s3.eu-central-1.amazonaws.com/cloudios.production.image/27/75cad74e-dac9-4e1c-9544-97dffbc53f27/d0/947ec018-e607-48d2-9726-ae21425328d0/dc/b532a402-c8ee-442a-abb5-f91af1f292dc.jpg",
+            "online": true,
+            "headline": "E1.0",
+            "position": 0,
+            "description": "The second story has a large game room with majestic views of the environment. Copious extra rooms allow you the flexibility to have a home office or home gym."
           },
           {
-            "uri": "https://s3.eu-central-1.amazonaws.com/cloudios.production.image/27/75cad74e-dac9-4e1c-9544-97dffbc53f27/d0/947ec018-e607-48d2-9726-ae21425328d0/69/9cde022b-da32-461a-b5f0-f63f31388369.jpg",
-            "online": false,
-            "headline": "",
-            "position": 2,
-            "description": ""
+            "uri": "https://s3.eu-central-1.amazonaws.com/cloudios.production.image/27/75cad74e-dac9-4e1c-9544-97dffbc53f27/d0/947ec018-e607-48d2-9726-ae21425328d0/dc/b532a402-c8ee-442a-abb5-f91af1f292dc.jpg",
+            "online": true,
+            "headline": "Keller",
+            "position": 0,
+            "description": "The basement is the perfect place to build your bunker for the coming apocolypse! No zombies in this house!"
+          },
+          {
+            "uri": "https://s3.eu-central-1.amazonaws.com/cloudios.production.image/27/75cad74e-dac9-4e1c-9544-97dffbc53f27/d0/947ec018-e607-48d2-9726-ae21425328d0/dc/b532a402-c8ee-442a-abb5-f91af1f292dc.jpg",
+            "online": true,
+            "headline": "Attic",
+            "position": 0,
+            "description": "Unfinished Attic can be turned into a dust farm."
           }
         ]
       },
@@ -408,11 +415,11 @@
       "mainImage": {
         "values": [
           {
-            "uri": "https://s3.eu-central-1.amazonaws.com/cloudios.production.image/27/75cad74e-dac9-4e1c-9544-97dffbc53f27/d0/947ec018-e607-48d2-9726-ae21425328d0/8d/9114d994-3483-4f40-8202-dde9b86b198d.jpg",
+            "uri": "https://www.pexels.com/photo/323780/download/?search_query=house&tracking_id=zq1e8vodlv",
             "online": true,
-            "headline": "",
+            "headline": "A Modern House",
             "position": 0,
-            "description": ""
+            "description": "A great location by the sea to set your soul at ease"
           }
         ]
       },
@@ -486,16 +493,16 @@
       "creatorId": "5ecbd364-1059-4739-ba8b-da79eaf0feeb",
       "cognitoUsername": null,
       "companyId": "75cad74e-dac9-4e1c-9544-97dffbc53f27",
-      "salutation": null,
-      "firstname": null,
-      "lastname": "IEX2",
+      "salutation": "Herr",
+      "firstname": "Muster",
+      "lastname": "McMusterface",
       "businessMailAddress": "api-user-1715fa3b025@75cad74e-dac9-4e1c-9544-97dffbc53f27.de",
       "aliasMailAddress": "api-user-1715fa3b025@75cad74e-dac9-4e1c-9544-97dffbc53f27.de",
       "loginRelatedMailAddress": "api-user-1715fa3b025@75cad74e-dac9-4e1c-9544-97dffbc53f27.de",
       "loginName": "api-user-1715fa3b025@75cad74e-dac9-4e1c-9544-97dffbc53f27.de",
       "timestamp": 1586447508649,
       "position": null,
-      "phone": null,
+      "phone": "+49 123 1234 1234",
       "mobile": null,
       "fax": null,
       "image": null,

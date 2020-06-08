@@ -8,16 +8,16 @@ const basetheme = {
         //   color5: '#048BA8', //lock
         // },
         colors: {
-            primary: '#FF1D15', // primary brand color
-            secondary: '#5448C8', //secondary brand color
-            background: '#423E3B', // background on pages
+            primary: '#182825', // primary brand color
+            secondary: '#225560', //secondary brand color
+            background: '#FFFAFF', // background on pages
             
 
-            baseText: '#FEA82F', // default text color
-            primaryText: '#FFFECB', // color of text on primary
-            secondaryText: '#FFB8DE', // color of text on secondary
+            baseText: '#303036', // default text color
+            primaryText: '#FFFAFF', // color of text on primary
+            secondaryText: '#E6E8E6', // color of text on secondary
 
-            alternateRow: 'rgba(255,255,255,0.3)', // color of alternate row
+            alternateRow: 'rgba(183,109,104,0.3)', // color of alternate row
 
             
         },
